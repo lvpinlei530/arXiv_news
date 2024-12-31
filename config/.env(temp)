@@ -1,0 +1,3 @@
+OPENAI_API_KEY= # For OpenAI API to analyze the text
+
+SLACK_URL= # For Slack to send the message

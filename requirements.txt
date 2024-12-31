@@ -1,0 +1,9 @@
+arxiv
+sqlalchemy
+requests
+eralchemy
+openai
+python-dotenv
+graphviz
+numpy
+scikit-learn
