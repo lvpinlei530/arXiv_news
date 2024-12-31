@@ -1,9 +1,9 @@
 from arxiv_fetch import populate_paper_db
 from get_from_db import grab_recent_papers, grab_since_last_processed
+from score import evaluate_paper
 from score import update_paper_scores_with_dict
 from generate_newspaper import generate_summary_for_papers
-from utils import ENV_PATH, send_slack_message
-from score import evaluate_paper
+from utils import send_slack_message
 
 keywords = {"quantum": 1.0, "quantum computation": 1.0, "quantum information": 1.0, "circuit QED": 1.0,
             "superconducting qubit": 1.0, "dual-rail qubit": 1.0}
