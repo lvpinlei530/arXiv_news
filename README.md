@@ -14,7 +14,7 @@ Tags: arXiv, science-newsletter, research-curation, python
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/arXiv_news.git
+   git clone https://github.com/lvpinlei530/arXiv_news.git
    cd arXiv_news
    ```
 
@@ -32,7 +32,7 @@ Tags: arXiv, science-newsletter, research-curation, python
 4. Set up the database:
    Run the initialization script to create the database structure:
    ```bash
-   python src/arXiv_news/arXiv_fetch.py
+   python src/arXiv_news/db_init.py
    ```
 
 ## Usage
